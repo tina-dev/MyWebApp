@@ -1,0 +1,79 @@
+:link, :visited { background-color: transparent; color: #9296A2; font-weight: bold; text-decoration: underline }
+:link:hover, :visited:hover { background-color: #9296A2; color: #373B46; text-decoration: none }
+body { font: normal 70% Verdana, Georgia, Times, serif }
+body {
+	color: #000000;
+	margin: 0em;
+	padding: 0em;
+	background-color: #330202;
+}
+h1, h2, h3, h4 { margin: 0em; overflow: hidden; padding: 0em }
+h1 { background: #9296A2 url(h1_v2.jpg) no-repeat; height: 325px}
+* > h2 { position: fixed }
+h3 span { }
+p { color: #9296A2; margin: 0em; padding: 0em 0em 1em 0em }
+p:hover { color: #E7E7F1 }
+p * { color: #9296A2 }
+p:hover * { }
+ul { background-color: transparent; color: #FFFFFF; margin: 0em; padding: 0em; padding-bottom: 20px }
+ul li { list-style: square; margin: 0em 0em 0em 2em; padding: 0em }
+ul li a { font-weight: normal }
+#container {
+	border: 2px solid #000;
+	border-width: 0px 2px;
+	color: #E7E7F1;
+	margin-left: -321px;
+	padding-bottom: 20px;
+	position: absolute;
+	left: 50%;
+	width: 642px;
+	background-color: #130101;
+}
+#pageHeader {
+	background-color: #373B46;
+	text-align: right;
+}
+#pageHeader h1 span { }
+#pageHeader h2 span { margin-left: -2000px }
+#preamble h3 { height: 60px; width: 330px }
+#preamble {
+	margin-left: 270px;
+	margin-right: 24px;
+	width: auto;
+}
+#supportingText {
+	margin-left: 24px;
+	width: auto;
+	margin-right: 24px;
+}
+p { margin-left: 10px; padding-left: 10px; text-align: justify }
+#explanation h3 {
+	height: 30px;
+	width: 330px;
+	padding-top: 20px;
+}
+#participation h3 {
+	height: 30px;
+	width: 330px;
+	padding-top: 20px;
+}
+#benefits h3 {
+	height: 30px;
+	width: 330px;
+	padding-top: 20px;
+}
+#linkList {
+	left: 40px;
+	position: absolute;
+	top: 340px;
+	width: 220px;
+	border-right: 1px solid #fff;
+}
+#linkList h3 { height: 30px; width: 200px }
+#footer {
+	bottom: 400px;
+	position: static;
+	right: 36px;
+	text-align: right;
+	padding-top: 40px;
+}
